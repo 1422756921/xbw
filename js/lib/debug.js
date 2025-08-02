@@ -1,4 +1,4 @@
-// 反调试函数,参数：开关，执行代码
+/** 反调试函数,参数：开关，执行代码
 function endebug(off, code) {
     if (!off) {
         ! function(e) {
@@ -64,4 +64,6 @@ const handler = setInterval(function() {
     const after = new Date();
     const cost = after.getTime() - before.getTime();
     if (cost > 100) {}
+
 }, 1);
+**/
